@@ -4,13 +4,12 @@ function toggle() {
 }
 
 // Selects and HTML element, and calls a function which will be executed when the element is clicked.
+document.getElementById("description2-1").onclick = toggle
+
 document.getElementById("section1").onclick = toggle
 document.getElementById("section2").onclick = toggle
 document.getElementById("section3").onclick = toggle
 
-
-function toggle() {
-  this.classList.toggle("active")
-}
-
-document.getElementById("description1").onclick = toggle
+document.getElementById("description2-1").onclick = toggle
+document.getElementById("description2-2").onclick = toggle
+document.getElementById("description2-3").onclick = toggle
