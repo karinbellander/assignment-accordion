@@ -1,15 +1,42 @@
 html {
   background: #f2f1f4;
   color: #19171c;
+  width: 100%;
+}
+
+ .accordion {
+  width: 60%;
+  background: #fcf3d4;
+  border: 2px solid black;
+  margin: auto;
+  padding: 5%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  box-shadow: 10px 10px 5px pink;
+}
+
+h1 {
+  font: 5vw 'Quantico', sans-serif;
 }
 
 .title {
-  background-color:red
+  border-bottom: 2px solid black;
+  font: 2.5vw 'Quantico', sans-serif;
+  margin-top: 10px;
 }
 
 .description {
   display: none;
   background-color: yellow;
+  font: 1.5vw 'Quantico', sans-serif;
+  margin: 0;
+  padding: 40px 50px 60px 50px;
+  border-bottom: 2px solid black;
+}
+
+p {
+  margin: 0;
+  padding: 0;
 }
 
 .active + .description {
