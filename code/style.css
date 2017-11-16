@@ -86,20 +86,9 @@ display: block;
   display: block;
 }
 
-.active {
-  display: none;
-}
 
 
-
-
-
-/*.active + .extra {
-  display: block;
-
-}*/
-
-.title::after {
+/*.title::after {
   content: " +";
 
 }
@@ -107,4 +96,4 @@ display: block;
 .title + .active::after {
   content: " -";
 
-}
+}*/
