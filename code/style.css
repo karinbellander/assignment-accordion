@@ -13,6 +13,7 @@ html {
   margin-top: 5%;
   margin-bottom: 5%;
   box-shadow: 10px 10px 5px pink;
+
 }
 
 h1 {
@@ -23,6 +24,15 @@ h1 {
   border-bottom: 2px solid black;
   font: 2.5vw 'Quantico', sans-serif;
   margin-top: 10px;
+}
+
+.questions div:nth-child(4n+1) {
+ background-color: red;
+}
+
+.title:hover {
+  color: pink;
+  border-bottom: 2px solid pink;
 }
 
 .description {
