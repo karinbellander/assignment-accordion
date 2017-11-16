@@ -7,3 +7,10 @@ function toggle() {
 document.getElementById("section1").onclick = toggle
 document.getElementById("section2").onclick = toggle
 document.getElementById("section3").onclick = toggle
+
+
+function toggle() {
+  this.classList.toggle("active")
+}
+
+document.getElementById("description1").onclick = toggle
