@@ -35,6 +35,11 @@ h1 {
   cursor: pointer;
 }
 
+.description2:hover {
+  color: pink;
+
+}
+
 .description, .description2, .extra {
   display: none;
   margin: 0;
